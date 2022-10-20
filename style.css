@@ -1,8 +1,28 @@
-body {
-    border: 2px solid pink;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-img {
-    height: 50px;
-    width: 50px;
+ul {
+    list-style: none;
+    border: none;
+    padding: none;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-card {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
 }
