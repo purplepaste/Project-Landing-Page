@@ -1,6 +1,20 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 0px 45px 0px 45px;
+}
+
+.header-logo {
+    color: #F9FAF8;
     align-items: center;
 }
 
@@ -25,4 +39,29 @@ ul {
     flex-direction: column;
     align-items: baseline;
 
+}
+
+.right-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+}
+
+.random {
+    text-align: center;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+}
+
+.gallery {
+    display: flex;
 }
