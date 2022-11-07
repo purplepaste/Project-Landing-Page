@@ -1,7 +1,15 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-items: end;
 }
 
+.one {
+    background-color: #1f2937;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -31,7 +39,7 @@ ul {
 .cards {
     display: flex;
     background-color: #1f2937;
-    justify-content: center;
+    justify-content: space-between;
     padding: 45px;
       
 }
@@ -41,7 +49,7 @@ ul {
 
 .hero-text {
     color: #F9FAF8;
-    font-weight: 800;
+    font-weight: bolder;
     font-size: 48px;
 }
 
@@ -50,7 +58,7 @@ ul {
     font-size: 18px;
 }
 
-.sign-up {
+.sign-Up {
     
     color: #F9FAF8;
     margin-top: 8px;
@@ -75,14 +83,98 @@ ul {
 
 .random {
     text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 18px;
 }
 
 img {
-    height: 50px;
-    width: 50px;
-    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
 }
 
 .gallery {
     display: flex;
+    padding: 45px;
+    
+}
+
+.first,
+.second,
+.third,
+.fourth {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firstCaption,
+.secondCaption,
+.thirdCaption,
+.fourthCaption {
+    text-align: center;
+}
+
+.three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+}
+
+.quote {
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.thor {
+    text-align: right;
+    font-weight: bold;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+}
+
+.box {
+    border-radius: 12px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 45px;
+}
+
+.boxItems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxText {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+
+.boxItems .sign-Up {
+    color:#E5E7EB;
+    border-color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 45px;
+    text-align: center;
+}
+
+.one,
+.two,
+.three,
+.four {
+    padding-left: 100px;
+    padding-right: 100px;
 }
